@@ -1,0 +1,59 @@
+<!-- <mat-card class="example-card">
+    <textarea [(ngModel)]="textToSummarize" rows="10" cols="50"></textarea>
+    <button class="btn" (click)="summarizeText()">Summarize</button>
+</mat-card>
+  
+
+
+  <mat-card class="example-card" *ngIf="summary">
+    <mat-card-content>{{ summary }}</mat-card-content>
+  </mat-card> -->
+  
+
+<!-- <mat-card class="example-card">
+    <textarea [(ngModel)]="textToSummarize" rows="10" cols="50"></textarea>
+    <button mat-button class="custom-button" (click)="summarizeText()">Summarize</button>
+</mat-card>
+  
+<mat-card class="example-card" *ngIf="summary">
+    <mat-card-content>{{ summary }}</mat-card-content>
+</mat-card> -->
+<br>
+<br>
+<mat-card class="example-card">
+    <textarea [(ngModel)]="textToSummarize" rows="10" cols="50"></textarea>
+    <button mat-button class="custom-button" (click)="summarizeText()">Summarize</button>
+</mat-card>
+  <br>
+  <br>
+<mat-card class="example-card summary-card" *ngIf="summary">
+    <mat-card-content>{{ summary}}</mat-card-content>
+</mat-card>
+
+
+
+  <!-- <div class="container">
+    <mat-card class="input-card">
+        <mat-card-content>
+            <h2>Text Summarizer</h2>
+            <mat-form-field appearance="fill">
+                <textarea matInput [(ngModel)]="textToSummarize" rows="5" placeholder="Enter text to summarize"></textarea>
+            </mat-form-field>
+            <button mat-raised-button color="primary" (click)="summarizeText()">Summarize</button>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="summary-card" *ngIf="summary">
+        <mat-card-content>
+            <h2>Summary</h2>
+            {{ summary }}
+        </mat-card-content>
+    </mat-card>
+</div> -->
+
+
+  <!-- <div *ngIf="summary">
+    <h2>Summary:</h2>
+    <p>{{ summary }}</p>
+</div> -->
+  <!-- <p>output = {{ summary }}</p> -->

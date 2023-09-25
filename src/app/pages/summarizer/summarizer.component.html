@@ -1,0 +1,41 @@
+<!-- <br>
+<br>
+<p>Summerizer</p>
+<input type="file" (change)="onFileSelected($event)">
+<button (click)="onUpload()">Upload</button>
+
+<mat-card class="example-card summary-card" *ngIf="summary">
+    <mat-card-content>
+        <h2>Summary</h2>
+        {{ summary }}
+    </mat-card-content>
+</mat-card> -->
+
+
+<!-- Import Angular Material styles -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.24/angular-material.min.css" rel="stylesheet">
+
+<!-- Summary Container -->
+<mat-card class="summary-container">
+  <mat-card-content>
+    <h2>Choose file to Summarize</h2>
+    <input type="file" (change)="onFileSelected($event)">
+    <button (click)="onUpload()">Upload</button>
+  </mat-card-content>
+</mat-card>
+
+<!-- Summary Card (Initially Displayed with Placeholder) -->
+<mat-card class="summary-card" *ngIf="!summary">
+    <mat-card-content>
+      <h2 class="summary-heading">Summary</h2>
+      <p class="summary-placeholder">Summary will be generated here</p>
+    </mat-card-content>
+  </mat-card>
+  
+  <!-- Response Card (Displayed When Summary is Available) -->
+  <mat-card class="summary-card" *ngIf="summary">
+    <mat-card-content>
+      <h2 class="summary-heading">Summary</h2>
+      <p class="summary-content">{{ summary }}</p>
+    </mat-card-content>
+  </mat-card>

@@ -1,0 +1,52 @@
+/* .example-card { */
+    /* max-width: 400px;
+    justify-content: center;
+    align-items: center; */
+    
+    /* margin: 3%;
+    width: 28%;
+    text-align: left;
+  }
+
+  .custom-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+} */
+
+
+
+.example-card {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.summary-card {
+    background-color: #f5f5f5;
+}
+
+.custom-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}

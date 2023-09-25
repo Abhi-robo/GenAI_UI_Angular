@@ -1,0 +1,163 @@
+.border {
+
+  margin-top: 10px;
+
+  margin-left: 10%;
+
+  margin-right: 10%;
+
+  border: solid;
+
+  border-color: #d993fa;
+
+  background-color: #f9f5fa
+
+}
+
+ 
+
+.chat-container {
+
+  height: 430px;
+
+  /* overflow-y: hidden; */
+
+  overflow: hidden;
+
+  padding: 10px;
+
+  width: 70%;
+
+  margin-left: 15%;
+
+}
+
+ 
+
+ 
+
+.chat-container:hover {
+
+  overflow: auto;
+
+}
+
+ 
+
+.message {
+
+  background-color: #edc9f5;
+
+  color: #4e18cd;
+
+  padding: 5px;
+
+  margin-top: 5%;
+
+}
+
+ 
+
+.user .testcard {
+
+  /* width: fit-content; */
+
+  margin-top: 25px;
+
+  margin-left: 35%;
+
+  margin-right: 5%;
+
+  background-color: #f1c0ee;
+
+  /* text-align: right; */
+
+  /* display: block; */
+
+  float: right;
+
+  clear: right
+
+}
+
+ 
+
+.assistant .testcard {
+
+  /* width: fit-content; */
+
+  margin-top: 25px;
+
+  font-style: italic;
+
+  margin-left: 0%;
+
+  margin-right: 40%;
+
+  background-color: #dfcef5;
+
+  text-align: left;
+
+  /* display: inline-block */
+
+  float: left;
+
+  clear: right
+
+}
+
+ 
+
+ 
+
+.input-container {
+
+  margin-top: 10px;
+
+}
+
+ 
+
+.input-container input {
+
+  padding: 5px;
+
+  width: 700px
+
+}
+
+ 
+
+.input-container button {
+
+  padding: 5px 10px;
+
+  margin-left: 10px;
+
+  background-color: #7d04b5;
+
+  color: white;
+
+  border: none;
+
+}
+
+ 
+
+ 
+
+.testcard {
+
+  padding-left: 10px;
+
+  padding-right: 10px;
+
+  border-radius: 7px 7px 7px 7px;
+
+  box-shadow: 0.25px 0.25px;
+
+  display:flex;
+
+  flex-direction: column;
+
+}

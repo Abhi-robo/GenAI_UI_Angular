@@ -1,0 +1,38 @@
+<div class="menubar-container">
+<mat-toolbar color="primary">
+    <button (click)="drawer.toggle()" mat-icon-button>
+        <mat-icon>menu</mat-icon>
+    </button>
+
+    <div class="logo-container">
+        <a routerLink="/" style="cursor: pointer;"><img src="assets\pic\accenture_white_sig.png" alt="Logo" style="height: 10%;width: 10%;padding-right: 2rem;"></a>
+        <a>GEN AI</a>
+    </div>
+    <!-- <div class="text-hdr-2">BCP Cloud Foundation</div> -->
+    <span></span>
+    <span class="example-spacer"></span>
+    <button mat-button>logout</button>
+</mat-toolbar>
+
+
+<mat-drawer-container autosize>
+    <mat-drawer #drawer opened="true" mode="side" position="start">
+        <h1 style="margin-top: 4px;  cursor: pointer;   padding-top: 2rem;color:white; padding-bottom: 2rem;">NLP</h1>
+    <mat-nav-list>
+        <!-- <mat-list-item> -->
+            <a mat-list-item routerLink="/knowledge" style="margin-top: 4px;  cursor: pointer;   padding-top: 2rem;color:white; padding-bottom: 2rem;"><mat-icon>source</mat-icon> Knowledge Base</a>
+            <a mat-list-item routerLink="/chat" style="margin-top: 4px;  cursor: pointer;   padding-top: 2rem;; padding-bottom: 2rem;"><mat-icon>question_answer</mat-icon> Chat</a>
+            <a mat-list-item routerLink="/summary" style="margin-top: 4px;  cursor: pointer;   padding-top: 2rem;; padding-bottom: 2rem;"><mat-icon>summarize</mat-icon> Summarizer</a>
+            <!-- <a mat-list-item routerLink="/Document" style="margin-top: 4px;  cursor: pointer;   padding-top: 2rem;; padding-bottom: 2rem;"><mat-icon>Document</mat-icon> Document</a> -->
+            <a mat-list-item routerLink="/" style="margin-top: 4px;  cursor: pointer;   padding-top: 2rem;; padding-bottom: 2rem;"></a>
+
+    </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content>
+        <div style="text-align: center;min-height: 515px;">
+
+            <router-outlet></router-outlet>
+            </div>
+    </mat-drawer-content>
+</mat-drawer-container>.
+</div>

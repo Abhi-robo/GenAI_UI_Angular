@@ -1,0 +1,49 @@
+button{
+    background-color: #7d04b5;
+    color: white;
+    border: none;
+    block-size: 28px;
+}
+
+.mat-mdc-card {
+    margin-top: 20px;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+/* 
+.summary-card {
+    width: 300px; 
+    margin: 20px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    justify-content: center;
+  }
+  
+ 
+  .summary-heading {
+    font-size: 24px;
+    color: #333; 
+  }
+  
+
+  .summary-placeholder {
+    font-size: 16px;
+    color: #888; 
+    margin-top: 8px;
+  }
+  
+
+  .summary-content {
+    font-size: 18px;
+    color: #333; 
+    margin-top: 8px;
+  }
+  
+
+ */
